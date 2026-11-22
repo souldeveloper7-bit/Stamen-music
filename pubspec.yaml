@@ -1,0 +1,26 @@
+name: stamen
+description: A personal music streaming app powered by a JioSaavn-compatible API.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  just_audio: ^0.9.42
+  audio_service: ^0.18.15
+  audio_session: ^0.1.21
+  shared_preferences: ^2.3.2
+  file_picker: ^8.1.2
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
